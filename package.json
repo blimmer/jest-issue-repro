@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test:jest-circus": "jest --maxWorkers=4 --no-cache --testRunner=jest-circus/runner",
+    "test:jest-jasmine2": "jest --maxWorkers=4 --no-cache --testRunner=jest-jasmine2"
   },
   "keywords": [],
   "author": "Ben Limmer",
