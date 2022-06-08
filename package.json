@@ -11,6 +11,7 @@
   "author": "Ben Limmer",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.2.5"
+    "jest": "^28.1.1",
+    "jest-jasmine2": "^28.1.1"
   }
 }
